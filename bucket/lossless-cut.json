@@ -1,0 +1,14 @@
+{
+    "name": "lossless-cut",
+    "version": "7.0.2",
+    "description": "The swiss army knife of lossless video/audio editing",
+    "homepage": "https://github.com/mifi/lossless-cut",
+    "license": "MIT",
+    "url": "https://github.com/mifi/lossless-cut/releases/download/v7.0.2/LosslessCut-win-x64.exe",
+    "hash": "",
+    "bin": ["LosslessCut-win-x64.exe"],
+    "checkver": {
+        "url": "https://github.com/mifi/lossless-cut/releases",
+        "regex": "v([\\d.]+)"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "mpv",
+    "version": "0.37.0",
+    "description": "Free, open and cross-platform media player",
+    "homepage": "https://mpv.io",
+    "license": "GPL-2.0",
+    "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20240121-git-4a88b75.7z",
+    "hash": "",
+    "bin": ["mpv.exe"],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/",
+        "regex": "mpv-x86_64-([\\d-]+)-git"
+    }
+}

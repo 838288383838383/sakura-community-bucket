@@ -1,0 +1,14 @@
+{
+    "name": "localsend",
+    "version": "1.13.0",
+    "description": "Cross-platform file sharing using local network",
+    "homepage": "https://localsend.org",
+    "license": "MIT",
+    "url": "https://github.com/localsend/localsend/releases/download/v1.13.0/localsend-1.13.0-windows-x64.exe",
+    "hash": "",
+    "bin": ["localsend-1.13.0-windows-x64.exe"],
+    "checkver": {
+        "url": "https://github.com/localsend/localsend/releases",
+        "regex": "v([\\d.]+)"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "yt-dlp",
+    "version": "2024.07.02",
+    "description": "Command-line program to download videos from YouTube and other sites",
+    "homepage": "https://github.com/yt-dlp/yt-dlp",
+    "license": "Unlicense",
+    "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2024.07.02/yt-dlp.exe",
+    "hash": "",
+    "bin": ["yt-dlp.exe"],
+    "checkver": {
+        "url": "https://github.com/yt-dlp/yt-dlp/releases",
+        "regex": "(\\d{4}\\.\\d{2}\\.\\d{2})"
+    }
+}

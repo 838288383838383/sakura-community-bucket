@@ -1,0 +1,14 @@
+{
+    "name": "rufus",
+    "version": "4.5",
+    "description": "Reliable USB formatting tool for creating bootable drives",
+    "homepage": "https://rufus.ie",
+    "license": "GPL-3.0",
+    "url": "https://github.com/pbatard/rufus/releases/download/v4.5/rufus-4.5.exe",
+    "hash": "",
+    "bin": ["rufus.exe"],
+    "checkver": {
+        "url": "https://github.com/pbatard/rufus/releases",
+        "regex": "v([\\d.]+)"
+    }
+}

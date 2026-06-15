@@ -1,0 +1,15 @@
+{
+    "name": "flowframes",
+    "version": "1.41.0",
+    "description": "AI video frame interpolation using RIFE and DAIN",
+    "homepage": "https://github.com/n00mKad/flowframes",
+    "license": "GPL-3.0",
+    "url": "https://github.com/n00mKad/flowframes/releases/download/v1.41.0/Flowframes.1.41.0.zip",
+    "hash": "",
+    "extract_dir": "Flowframes",
+    "bin": ["Flowframes.exe"],
+    "checkver": {
+        "url": "https://github.com/n00mKad/flowframes/releases",
+        "regex": "v([\\d.]+)"
+    }
+}

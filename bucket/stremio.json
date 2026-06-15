@@ -1,0 +1,14 @@
+{
+    "name": "stremio",
+    "version": "4.7",
+    "description": "Modern media center - all your entertainment in one place",
+    "homepage": "https://www.stremio.com",
+    "license": "GPL-2.0",
+    "url": "https://stremio.com/stremio-shell/v4.7/Stremio+Setup+4.7.exe",
+    "hash": "",
+    "bin": ["Stremio.exe"],
+    "checkver": {
+        "url": "https://www.stremio.com/downloads",
+        "regex": "v([\\d.]+)"
+    }
+}
