@@ -1,0 +1,24 @@
+{
+    "name": "yasb-reborn",
+    "version": "2.0.4",
+    "description": "YASB - Yet Another Status Bar, a highly configurable Windows status bar",
+    "homepage": "https://yasb.dev/",
+    "license": "MIT",
+    "url": "https://github.com/amnweb/yasb/releases/download/v2.0.4/yasb-2.0.4-win64.msi",
+    "hash": "",
+    "installer": {
+        "type": "msi",
+        "args": ["/quiet", "/norestart"]
+    },
+    "bin": [],
+    "persist": [
+        "config"
+    ],
+    "checkver": {
+        "url": "https://github.com/amnweb/yasb/releases/latest",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/amnweb/yasb/releases/download/v$version/yasb-$version-win64.msi"
+    }
+}
